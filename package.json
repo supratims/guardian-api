@@ -9,6 +9,8 @@
   "author": "supratims@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "https": "^1.0.0"
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "querystring": "^0.2.0"
   }
 }
