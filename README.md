@@ -8,6 +8,11 @@ http://open-platform.theguardian.com/documentation/
 * node, npm
 * obtain a guardian key and save it in a file api_key
 
-## Running the app
+## Running the app locally on :8080
 * npm install
-* npm start
+* node app
+
+### hitting the guardian api without running server, 
+* comment out fetch_xxx methods in the guardian.js 
+* node guardian
+
