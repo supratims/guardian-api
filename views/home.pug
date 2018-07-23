@@ -1,0 +1,10 @@
+html
+  head
+    title= News
+  body
+    div.container
+        ul
+            each val, index in list
+                li
+                    a(href=val.webUrl, title=val.webPublicationDate)=val.webTitle
+        
