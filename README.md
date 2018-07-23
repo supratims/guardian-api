@@ -5,5 +5,9 @@ Simple application to fetch content from guardian API
 http://open-platform.theguardian.com/documentation/
 
 ## Requirements
-* nodejs
+* node, npm
 * obtain a guardian key and save it in a file api_key
+
+## Running the app
+* npm install
+* npm start
